@@ -1,0 +1,182 @@
+File Name:	NOXEQUIP.XLS
+
+			Field Length	Field Type
+			===========	==========
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+NOX Equip. Code			10	 Character	
+NOX Other			60	 Character	
+
+----------------------------------------------------
+
+File Name:	COGEN.XLS
+ 
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+APP Thermal Energy		10	 Character
+Other Cogen			50	 Character
+
+----------------------------------------------------
+
+
+File Name:	XDOCKET.XLS
+
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+QF Docket Number		20	 Character
+
+----------------------------------------------------
+
+
+File Name	QFDOCKET.XLS
+
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+QF Docket			20	 Character
+
+----------------------------------------------------
+
+
+File Name:	FUELQUANT.XLS
+
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+Energy Source			10	 Character
+Energy Physical Unit		20	 Numeric
+Energy Physical Measure		20	 Character
+Energy Source BTU		20	 Numeric
+BTU Measure			20	 Character
+FQ Other			50	 Character
+
+----------------------------------------------------
+
+
+File Name:	GENENERGY.XLS
+
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+Generator Code			10	 Character
+Energy Source			10	 Character
+Primary Fuel Y/N		10	 Character
+Could Be Pri. Fuel Y/N		10	 Character
+Start Up Fuel Y/N		10	 Character
+ES Other			50	 Character
+
+----------------------------------------------------
+
+
+File Name:	GENERATOR.XLS (Proposed and Existing)
+
+EIA Uitility Code		10	 Numeric
+Facility Code			10	 Numeric
+Generator Code			10	 Character
+Nameplate Rating		20	 Numeric
+Num. Wind Turbines		10	 Numeric
+Generator Status		10	 Character
+Num. Hours Operated		10	 Numeric
+Generator Start Date		20	 Character
+Generator Retirement Date	20	 Character
+Generator Stat. Other		10	 Character
+Unit Type 1			10	 Character
+Unit Type 2			10	 Character
+Unit Type 3			10	 Character
+Prime Mover			10	 Character
+PM Other			10	 Character
+Gross Generation		20	 Numeric
+PM Combined Cycle		10	 Character
+
+----------------------------------------------------
+
+
+File Name:	NUPPFAC.DBF
+
+EIA UTILITY CODE		10	 Numeric
+FACILITY CODE			10	 Numeric
+FACILITY NAME			60	 Character
+FACILITY PO BOX			30	 Character
+FACILITY STREET			30	 Character
+FACILITY CITY			30	 Character
+FACILITY STATE			10	 Character
+FACILITY ZIP PRIM		 5	 Numeric
+FACILITY ZIP ADD4		 4	 Numeric
+FACILITY SOLD  			 1	 Character
+FACILITY PURCHASER		30	 Character
+PURCHASER PO BOX		30	 Character
+PURCHASER STREET		30	 Character
+PURCHASER CITY			30	 Character
+PURCHASER STATE			10	 Character
+PURCHASER ZIP PRIM		 5	 Numeric
+PURCHASER ZIP ADD4		 4	 Numeric
+PURCHASER CONTACT PERSON	30	 Character
+PURCHASER PHONE			20	 Character
+FACILITY SOLD DATE		20	 Character
+REMAIN PREPARER FORM		 1	 Character
+FACILITY NAMEPLATE RATING KW	20	 Numeric
+QF APPLICATION			 5	 Character
+EXEMPT APPLICATION		 5	 Character
+NAICS CODE			10	 Numeric
+NAICS CODE B			10	 Numeric
+NAICS CODE OTHER		30	 Character
+TOTAL GEN FACILITY		20	 Numeric
+TOT ELEC RECEIVED EU		20	 Numeric
+TOT ELEC RECEIVED NU		20	 Numeric
+TOT ELEC DEL UTIL		20	 Numeric
+TOTAL CONSUMPTION FACILITY	20	 Numeric
+CHECK BOTTOM CYCLE		 5	 Character
+NET USEFUL THERMAL ENERGY	20	 Numeric
+COAL SULFER CONTENT		20	 Numeric
+COAL ASH CONTENT		20	 Numeric
+PETRO SULFER CONTENT		20	 Numeric
+LIGHT OIL SULFER CONTENT	20	 Numeric
+SULFUR CONTENT CODE1		 5	 Character
+SULFUR CONTENT PERCENT1		20	 Numeric
+SULFUR CONTENT CODE2		 5	 Character
+SULFUR CONTENT PERCENT2		20	 Numeric
+SULFUR CONTENT CODE3		 5	 Character
+SULFUR CONTENT PERCENT3		20	 Numeric
+SULFUR CONTENT CODE4		 5	 Character
+SULFUR CONTENT PERCENT4		20	 Numeric
+FGD EQUIPMENT			 5	 Character
+FGD EFFICIENCY			10	 Numeric
+FGPC EQUIPMENT			 5	 Character
+FGPC EFFICIENCY			10	 Numeric
+NOX EQUIPMENT			 5	 Character
+ELECTRIC UTILITY CONNECTED	30	 Character
+CONNECTED UTILITY CODE		10	 Numeric
+NOT CONNECTED IND		20	 Character
+FACILITY OPERATOR CODE		10	 Numeric
+FACILITY OPERATOR NAME		30	 Character
+FACILITY OPERATOR PO BOX	30	 Character
+FACILITY OPERATOR STREET	30	 Character
+FACILITY OPERATOR CITY		30	 Character
+FACILITY OPERATOR STATE		30	 Character
+FACILITY OPERATOR ZIP PRIM	 5	 Numeric
+FACILITY OPERATOR ZIP ADD4	 4	 Numeric
+PREPARER CODE			10	 Numeric
+PREPARER COMP NAME		30	 Character
+PREP ATTENTION LINE		30	 Character
+PREP PO BOX LINE		30	 Character
+PREP ADDR STREET		30	 Character
+PREP ADDR CITY			30	 Character
+PREP STATE			10	 Character
+PREP ZIPCODE 5			 5	 Numeric
+PREP ZIPCODE 4			 4	 Numeric
+PREP CERTIFY NAME		30	 Character
+PREP CERTIFY TITLE		30	 Character
+PREP CONTACT NAME		30	 Character
+PREP CONTACT TITLE		30	 Character
+PREP Phone			20	 Character
+FAX Number			20	 Character
+PREP CONT EMAIL			40	 Character
+OWNER NAME			30	 Character
+OWNER ATTN LINE			30	 Character
+OWNER PO BOX LINE		30	 Character
+OWNER STREET			30	 Character
+OWNER CITY			30	 Character
+OWNER STATE			 2	 Character
+OWNER ZIPCODE 5			 5	 Numeric
+OWNER ZIPCODE 4			 4	 Numeric
+PRIMARY FUEL			30	 Character
+
+----------------------------------------------------
+
